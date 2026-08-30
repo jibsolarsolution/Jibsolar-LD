@@ -1,0 +1,32 @@
+{
+  "name": "jibsolar-leads-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "date-fns": "4.4.0",
+    "date-fns-tz": "3.2.0",
+    "mongoose": "9.9.4",
+    "next": "16.3.3",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.21.0",
+    "eslint-config-next": "16.3.3",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": ">=20.19.0 <21"
+  }
+}
